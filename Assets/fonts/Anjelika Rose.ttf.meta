@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 49ccd329e0934da47961fa354f8ae42d
+timeCreated: 1486434533
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Anjelika Rose
+  fontNames:
+  - Anjelika Rose
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - tail piece
+  - food
+  - block_piece
+  - deadBlock
+  - Fire
+  - gui
+  - Fish
+  - generator
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Effects
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: BG
+    uniqueID: 3979597599
+    locked: 0
+  - name: FG
+    uniqueID: 3460383715
+    locked: 0
+  - name: Player
+    uniqueID: 1204248763
+    locked: 0
+  - name: GUI
+    uniqueID: 1524988601
+    locked: 0
+  - name: Camera
+    uniqueID: 2441982331
+    locked: 0
