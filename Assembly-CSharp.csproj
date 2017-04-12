@@ -1096,6 +1096,7 @@
      <Compile Include="Assets\PlayMaker\Include\iTweenFSMEvents.cs" />
      <Compile Include="Assets\PlayMaker\UpdateHelper.cs" />
      <Compile Include="Assets\iTween\iTween.cs" />
+     <Compile Include="Assets\scripts\AdHandler.cs" />
      <Compile Include="Assets\scripts\JustAPixel\uGui\RadialLayout.cs" />
      <Compile Include="Assets\scripts\destroy_with_tag.cs" />
      <Compile Include="Assets\scripts\uGui\InputNavigator.cs" />
