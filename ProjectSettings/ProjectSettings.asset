@@ -9,7 +9,7 @@ PlayerSettings:
   defaultScreenOrientation: 3
   targetDevice: 2
   useOnDemandResources: 0
-  accelerometerFrequency: 60
+  accelerometerFrequency: 15
   companyName: Jaybot7
   productName: Dodgy
   defaultCursor: {fileID: 0}
@@ -50,7 +50,7 @@ PlayerSettings:
   m_ActiveColorSpace: 0
   m_MTRendering: 1
   m_MobileMTRendering: 0
-  m_StackTraceTypes: 010000000100000001000000010000000100000001000000
+  m_StackTraceTypes: 000000000000000000000000000000000000000001000000
   iosShowActivityIndicatorOnLoading: -1
   androidShowActivityIndicatorOnLoading: -1
   tizenShowActivityIndicatorOnLoading: -1
@@ -72,12 +72,12 @@ PlayerSettings:
   Prepare IOS For Recording: 0
   submitAnalytics: 1
   usePlayerLog: 1
-  bakeCollisionMeshes: 0
+  bakeCollisionMeshes: 1
   forceSingleInstance: 0
   resizableWindow: 0
   useMacAppStoreValidation: 0
-  gpuSkinning: 0
-  graphicsJobs: 0
+  gpuSkinning: 1
+  graphicsJobs: 1
   xboxPIXTextureCapture: 0
   xboxEnableAvatar: 0
   xboxEnableKinect: 0
@@ -119,33 +119,33 @@ PlayerSettings:
     16:10: 1
     16:9: 1
     Others: 1
-  bundleIdentifier: com.jaybot7.dodgy
-  bundleVersion: 1.0
+  bundleIdentifier: dodgy
+  bundleVersion: 1.03
   preloadedAssets: []
   metroInputSource: 0
   m_HolographicPauseOnTrackingLoss: 1
   xboxOneDisableKinectGpuReservation: 0
   protectGraphicsMemory: 0
   AndroidBundleVersionCode: 1
-  AndroidMinSdkVersion: 9
+  AndroidMinSdkVersion: 16
   AndroidPreferredInstallLocation: 1
   aotOptions: 
   apiCompatibilityLevel: 2
   stripEngineCode: 1
   iPhoneStrippingLevel: 0
-  iPhoneScriptCallOptimization: 0
+  iPhoneScriptCallOptimization: 1
   iPhoneBuildNumber: 0
   ForceInternetPermission: 0
   ForceSDCardPermission: 0
   CreateWallpaper: 0
   APKExpansionFiles: 0
-  preloadShaders: 0
-  StripUnusedMeshComponents: 0
+  preloadShaders: 1
+  StripUnusedMeshComponents: 1
   VertexChannelCompressionMask:
     serializedVersion: 2
     m_Bits: 238
   iPhoneSdkVersion: 988
-  iOSTargetOSVersionString: 
+  iOSTargetOSVersionString: 9.0
   tvOSSdkVersion: 0
   tvOSRequireExtendedGameController: 0
   tvOSTargetOSVersionString: 
@@ -190,7 +190,7 @@ PlayerSettings:
   iOSDeviceRequirements: []
   iOSURLSchemes: []
   iOSBackgroundModes: 0
-  iOSMetalForceHardShadows: 0
+  iOSMetalForceHardShadows: 1
   appleDeveloperTeamID: 
   iOSManualSigningProvisioningProfileID: 
   tvOSManualSigningProvisioningProfileID: 
@@ -206,7 +206,7 @@ PlayerSettings:
   m_AndroidBanners:
   - width: 320
     height: 180
-    banner: {fileID: 0}
+    banner: {fileID: 2800000, guid: 80f2661607012471683bae5609a56740, type: 3}
   androidGamepadSupportLevel: 0
   resolutionDialogBanner: {fileID: 0}
   m_BuildTargetIcons:
@@ -278,8 +278,37 @@ PlayerSettings:
       m_Icon: {fileID: 2800000, guid: 80f2661607012471683bae5609a56740, type: 3}
       m_Width: 29
       m_Height: 29
+  - m_BuildTarget: Android
+    m_Icons:
+    - serializedVersion: 2
+      m_Icon: {fileID: 2800000, guid: 80f2661607012471683bae5609a56740, type: 3}
+      m_Width: 192
+      m_Height: 192
+    - serializedVersion: 2
+      m_Icon: {fileID: 2800000, guid: 80f2661607012471683bae5609a56740, type: 3}
+      m_Width: 144
+      m_Height: 144
+    - serializedVersion: 2
+      m_Icon: {fileID: 2800000, guid: 80f2661607012471683bae5609a56740, type: 3}
+      m_Width: 96
+      m_Height: 96
+    - serializedVersion: 2
+      m_Icon: {fileID: 2800000, guid: 80f2661607012471683bae5609a56740, type: 3}
+      m_Width: 72
+      m_Height: 72
+    - serializedVersion: 2
+      m_Icon: {fileID: 2800000, guid: 80f2661607012471683bae5609a56740, type: 3}
+      m_Width: 48
+      m_Height: 48
+    - serializedVersion: 2
+      m_Icon: {fileID: 2800000, guid: 80f2661607012471683bae5609a56740, type: 3}
+      m_Width: 36
+      m_Height: 36
   m_BuildTargetBatching: []
-  m_BuildTargetGraphicsAPIs: []
+  m_BuildTargetGraphicsAPIs:
+  - m_BuildTarget: iOSSupport
+    m_APIs: 0b000000
+    m_Automatic: 0
   m_BuildTargetVRSettings: []
   openGLRequireES31: 0
   openGLRequireES31AEP: 0
@@ -436,7 +465,7 @@ PlayerSettings:
   psmSplashimage: {fileID: 0}
   splashScreenBackgroundSourceLandscape: {fileID: 0}
   splashScreenBackgroundSourcePortrait: {fileID: 0}
-  spritePackerPolicy: 
+  spritePackerPolicy: DefaultPackerPolicy
   webGLMemorySize: 256
   webGLExceptionSupport: 1
   webGLDataCaching: 0
@@ -450,7 +479,7 @@ PlayerSettings:
   webGLCompressionFormat: 1
   scriptingDefineSymbols:
     1: CROSS_PLATFORM_INPUT;PLAYMAKER;PLAYMAKER_1_8;PLAYMAKER_1_8_3;PLAYMAKER_1_8_OR_NEWER
-    4: CROSS_PLATFORM_INPUT;MOBILE_INPUT
+    4: CROSS_PLATFORM_INPUT;MOBILE_INPUT;PLAYMAKER;PLAYMAKER_1_8;PLAYMAKER_1_8_3;PLAYMAKER_1_8_OR_NEWER
     7: CROSS_PLATFORM_INPUT;MOBILE_INPUT;PLAYMAKER;PLAYMAKER_1_8;PLAYMAKER_1_8_3;PLAYMAKER_1_8_OR_NEWER
     13: PLAYMAKER;PLAYMAKER_1_8;PLAYMAKER_1_8_3;PLAYMAKER_1_8_OR_NEWER
     14: MOBILE_INPUT;PLAYMAKER;PLAYMAKER_1_8;PLAYMAKER_1_8_3;PLAYMAKER_1_8_OR_NEWER
@@ -463,8 +492,11 @@ PlayerSettings:
     23: PLAYMAKER;PLAYMAKER_1_8;PLAYMAKER_1_8_3;PLAYMAKER_1_8_OR_NEWER
     24: PLAYMAKER;PLAYMAKER_1_8;PLAYMAKER_1_8_3;PLAYMAKER_1_8_OR_NEWER
     25: PLAYMAKER;PLAYMAKER_1_8;PLAYMAKER_1_8_3;PLAYMAKER_1_8_OR_NEWER
-  platformArchitecture: {}
-  scriptingBackend: {}
+    26: PLAYMAKER;PLAYMAKER_1_8;PLAYMAKER_1_8_3;PLAYMAKER_1_8_OR_NEWER
+  platformArchitecture:
+    iOS: 1
+  scriptingBackend:
+    iOS: 1
   incrementalIl2cppBuild: {}
   additionalIl2CppArgs: 
   m_RenderingPath: 1
@@ -544,7 +576,10 @@ PlayerSettings:
   XboxOnePersistentLocalStorageSize: 0
   vrEditorSettings: {}
   cloudServicesEnabled:
+    Build: 0
     Collab: 1
+    ErrorHub: 0
+    Hub: 0
     UNet: 1
   cloudProjectId: 7d8e173b-59d7-41f3-9d10-8aabe5bd2bdd
   projectName: Dodgy
