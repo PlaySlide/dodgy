@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 43191d64bc8868340908d81bf9f7895c
+timeCreated: 1486434533
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: PixieFont
+  fontNames:
+  - PixieFont
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

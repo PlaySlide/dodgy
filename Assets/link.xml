@@ -1,0 +1,11 @@
+<linker>
+  <assembly fullname="UnityEngine.UI">
+    <type fullname="UnityEngine.UI.Image" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine">
+    <type fullname="UnityEngine.AudioSource" preserve="all" />
+  </assembly>
+  <assembly fullname="ConditionalExpression">
+    <type fullname="PlayMaker.ConditionalExpression.ConditionalExpression" preserve="all" />
+  </assembly>
+</linker>
